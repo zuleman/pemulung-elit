@@ -1,8 +1,209 @@
-<html>
+<!DOCTYPE html>
+<html lang="id">
 <head>
-<title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pemulung Elit - Sparepart Alat Berat</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        :root {
+            --cat-yellow: #fcd116;
+            --cat-black: #231f20;
+        }
+        body {
+            background-color: #f8f9fa;
+        }
+        .cat-theme {
+            background-color: var(--cat-yellow);
+            color: var(--cat-black);
+        }
+        .btn-cat {
+            background-color: var(--cat-yellow);
+            color: var(--cat-black);
+            border: none;
+        }
+        .btn-cat:hover {
+            background-color: #e6be00;
+            color: #000;
+        }
+    </style>
 </head>
 <body>
-<h1>Pemulung Elit</h1>
+
+<!-- Header -->
+<header class="cat-theme">
+    <div class="container d-flex justify-content-between align-items-center py-3">
+        <div class="d-flex align-items-center">
+            <img src="s3/images/logo.png" alt="Logo" class="me-2">
+            
+        </div>
+        <a href="https://wa.me/6281234567890" class="btn btn-dark">Whatsapp: 0812-3456-7890</a>
+    </div>
+</header>
+
+<!-- Banner -->
+<section class="text-center py-4 position-relative" style="
+    background: url('s3/products/excavator.jpg') center no-repeat;
+    height: 20em;">
+    <div class="position-absolute top-0 start-0 w-100 h-100" style="background-color: rgba(0,0,0,0.2);"></div>
+    <div class="container h-100 position-relative d-flex flex-column justify-content-center align-items-center text-white">
+        <h2 class="fw-bold">High-Quality Used Heavy Equipment, Spare Parts, and Scrap.</h2>
+        <p>Official Heavy Equipment Dismantling, Shipping Globally.</p>
+    </div>
+</section>
+
+
+<!-- Deskripsi Singkat -->
+<section class="container py-4">
+    <h3>About Us</h3>
+    <p>Pemulung Elit is a company specializing in dismantling used heavy equipment. Our main products include quality used machinery, scrap metal, and functional spare parts to meet your operational needs.</p>
+</section>
+
+<!-- Kategori Barang -->
+<section class="container py-4">
+    <h3>Categories</h3>
+    <div class="row g-3">
+        <div class="col-md-4">
+            <div class="card h-100">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Equipments</h5>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card h-100">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Spare Parts</h5>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card h-100">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Scraps</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="container py-4 mb-5">
+    <div class="row">
+        <div class="col-6"><h3>Used Machinery</h3></div>    
+        <div class="col-6 text-end"><a href="#">Show All</a> &gt;&gt;</div>    
+    </div>
+    <div class="row g-3">
+        <div class="col-md-3">
+            <div class="card h-100">
+                <img src="s3/products/excavator-01.jpg" class="card-img-top" alt="Sparepart 1">
+                <div class="card-body">
+                    <h5 class="card-title">Excavator</h5>
+                    <p class="text-muted">EX120-0062 R984C</p>
+                    <p class="card-text">Location: Samarinda<br>Rp 740.000.000</p>
+                    <a href="product-detail.html" class="btn btn-cat w-100">Detail</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card h-100">
+                <img src="s3/products/excavator-02.jpg" class="card-img-top" alt="Sparepart 2">
+                <div class="card-body">
+                    <h5 class="card-title">Excavator</h5>
+                    <p class="text-muted">EX120-0063 R984C</p>
+                    <p class="card-text">Location: Pontianak<br>Rp 263.000.000</p>
+                    <a href="product-detail.html" class="btn btn-cat w-100">Detail</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card h-100">
+                <img src="s3/products/excavator-03.jpg" class="card-img-top" alt="Sparepart 3">
+                <div class="card-body">
+                    <h5 class="card-title">Excavator</h5>
+                    <p class="text-muted">EX120-0064 R984C</p>
+                    <p class="card-text">Location: Samarinda<br>Rp 385.000.000</p>
+                    <a href="product-detail.html" class="btn btn-cat w-100">Detail</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card h-100">
+                <img src="s3/products/excavator-04.jpg" class="card-img-top" alt="Sparepart 3">
+                <div class="card-body">
+                   <h5 class="card-title">Excavator</h5>
+                    <p class="text-muted">EX120-0065 R984C</p>
+                    <p class="card-text">Location: Samarinda<br>Rp 479.000.000</p>
+                    <a href="product-detail.html" class="btn btn-cat w-100">Detail</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="container py-4">
+    <div class="row">
+        <div class="col-6"><h3>Used Spare Parts</h3></div>    
+        <div class="col-6 text-end"><a href="#">Show All</a> &gt;&gt;</div>    
+    </div>
+    <div class="row g-3">
+        <div class="col-md-3">
+            <div class="card h-100">
+                <img src="s3/products/bucket.jpg" class="card-img-top" alt="Sparepart 1">
+                <div class="card-body">
+                    <h5 class="card-title">Buckect</h5>
+                    <p class="card-text">Location: Samarinda<br>Rp 3.500.000</p>
+                    <a href="product-detail.html" class="btn btn-cat w-100">Detail</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card h-100">
+                <img src="s3/products/thumb.jpg" class="card-img-top" alt="Sparepart 2">
+                <div class="card-body">
+                    <h5 class="card-title">Thumb</h5>
+                    <p class="card-text">Location: Pontianak<br>Rp 5.200.000</p>
+                    <a href="product-detail.html" class="btn btn-cat w-100">Detail</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card h-100">
+                <img src="s3/products/ripper.jpg" class="card-img-top" alt="Sparepart 3">
+                <div class="card-body">
+                    <h5 class="card-title">Ripper</h5>
+                    <p class="card-text">Location: Samarinda<br>Rp 7.000.000</p>
+                    <a href="product-detail.html" class="btn btn-cat w-100">Detail</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card h-100">
+                <img src="s3/products/blades.jpg" class="card-img-top" alt="Sparepart 3">
+                <div class="card-body">
+                    <h5 class="card-title">Blade</h5>
+                    <p class="card-text">Location: Samarinda<br>Rp 7.500.000</p>
+                    <a href="product-detail.html" class="btn btn-cat w-100">Detail</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Call To Action -->
+<section class="text-center py-4 cat-theme">
+    <div class="container">
+        <h5 class="mb-3">Find high quality used heavy equipment, spare parts, and scrap for your heavy equipment needs!</h5>
+        <a href="https://wa.me/6281234567890" class="btn btn-dark">Contact Us!</a>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="text-center p-3 bg-dark text-white">
+    <p class="mb-1">Pemulung Elit - Pemotongan & Penjualan Sparepart Alat Berat</p>
+    <p class="mb-0">Workshop: Jl. H . Moh. Ardans, Sempaja Selatan Kota Samarinda, Kalimantan Timur, Indonesia</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
